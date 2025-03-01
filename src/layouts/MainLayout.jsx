@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar/Navbar";
-
+import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
     return (
         <div className="bg-gray-400">
-            This is Main Layout
-            <Navbar></Navbar>       
+           <Navbar></Navbar>
+          
         </div>
     );
 };
